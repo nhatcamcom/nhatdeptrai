@@ -1,0 +1,13 @@
+Dark Fantasy	ruined chapel arena, red-eyed monsters, blood stains, bones, crimson banners, a horned shadow knight boss	evidence/play.png
+2D Top-down	2D 3/4 top-down view, camera follows the warrior and leans toward the mouse	evidence/play.png
+màu sắc u tối	light map darkens everything outside the torches (darkness 0.6) plus a vignette	evidence/play.png
+hiệu ứng chiến đấu đẹp	glowing slash crescents, hit sparks, ichor, hitstop, screen shake, violet whirlwind storm, rings on slams	evidence/play.png
+giao diện hiện đại	framed HUD with gold corners, ability boxes with cooldown fill, level-up cards with icons	evidence/play.png
+Pixel Art 16-bit tối	480x270 native, whole-number scale, smoothing off, every figure a pixel map	evidence/figures.png
+nền đá lạnh xanh tím	blue-violet flagstone floor and brick walls	evidence/play.png
+ánh đuốc cam	four braziers and the warrior torch glow in warm orange	evidence/play.png
+viền đỏ	every monster traced with a blood-red outline	evidence/figures.png
+hiệu ứng chém phát sáng	additive glowing slash arc with a white edge	evidence/play.png
+2D	flat 2D canvas world, 3/4 top-down figures	evidence/play.png
+Top-down	camera above the arena following the warrior	evidence/play.png
+Pixel Art	every figure, tile and icon is a pixel map at 480x270, scaled whole	evidence/figures.png

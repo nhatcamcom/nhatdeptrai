@@ -1,0 +1,33 @@
+L1	pass	evidence/figures.png	480x270 pixel maps at whole scale, blue-violet stone, four orange braziers, red monster outlines, white glowing slash, violet whirlwind (index.html:1151)
+L2	pass	index.html:1042	warm torch light follows the warrior; vignette darkens the edges (index.html:1247); seen in evidence/play.png
+L3	pass	evidence/figures.png	every figure is a pixel map with its own outline; no emoji, no plain shapes
+L4	pass	index.html:1024	top-down 2D, camera follows the warrior and leans toward the mouse
+F1	pass	index.html:878	WASD move, mouse-aimed slash on left mouse (index.html:853), Space dash with iframes (index.html:892), E whirlwind with cooldown (index.html:898)
+F2	pass	index.html:793	stone arena with four braziers (index.html:376); five waves; ghoul lunge, archer arrows, brute telegraphed slam, wraith line dash (index.html:628-690)
+F3	pass	index.html:591	white flash, knockback, floating numbers, shake on hits, capped lifesteal (index.html:600)
+F4	pass	index.html:939	orbs fly to the warrior (index.html:1005); level-up shows 3 of 12 cards incl. damage, attack speed, move speed, max hp, healing, cooldown (index.html:476, 943)
+F5	pass	index.html:693	charge+slam, orb rings, cleave cone, summon, each with a red telegraph; phase 2 under 50% (index.html:696)
+F6	pass	evidence/over.png	defeat and victory screens with score, time, kills, level, waves, shards; Enter/R/click restarts (index.html:1366)
+F7	pass	index.html:458	shards saved to LocalStorage, four permanent upgrades bought on the title screen (index.html:1347, evidence/title.png)
+S1	pass	index.html:853	slash follows the mouse angle
+S2	pass	index.html:898	spinning sword damages every monster in the radius each tick
+S3	pass	index.html:892	dash with iframes from its first frame and a buffered swing
+S4	pass	index.html:805	five waves, then the boss
+S5	pass	index.html:591	hp and damage both ways; lifesteal capped per second
+S6	pass	index.html:939	xp and levels; xp bar in evidence/play.png
+S7	pass	index.html:943	three cards on each level-up
+S8	pass	index.html:693	one boss with four attacks and two phases
+S9	pass	evidence/over.png	end screens and replay
+S10	pass	index.html:1347	shard forge works at its simplest: buy, save, applies to the next run (index.html:458)
+M1	pass	evidence/play.png	dark arena, flickering braziers; the WASD/click hint fades once the player has moved and swung (index.html:536)
+M2	pass	index.html:797	wave 1 opens with three ghouls from the gates
+M3	pass	index.html:606	glowing slash, knockback, white flash, violet xp orbs fly to the warrior
+M4	pass	evidence/play.png	the Space hint shows when a monster gets close (index.html:994); the dash ignores damage
+M5	not_assessed	index.html:1011	slow-motion then 3 cards is built; whether it lands near 40 s needs a real play
+M6	pass	index.html:815	the E hint shows at wave 2; the whirlwind hits everything around
+C1	not_assessed	index.html:793	waves 1-2 hold ghouls and a few archers; the 0-3 minute timing needs a real play
+C2	not_assessed	index.html:800	brutes join at wave 3 with archers; minute 3-4 and the first real trouble need a real play
+C3	pass	index.html:801	wraiths join at wave 4; counts grow every wave
+C4	not_assessed	index.html:693	the four boss attacks and phase 2 are built; arriving at minute 7-8 needs a real play
+C5	not_assessed	index.html:883	lifesteal is capped at 3 hp/s; whether standing and trading loses is a feel only play shows
+C6	pass	index.html:1028	death ends the run, shards are kept and saved

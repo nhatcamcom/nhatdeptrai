@@ -1,0 +1,181 @@
+# The one-shot's small check (check-run/1).
+# Written by one-shot-check.sh --record: the results are /prototype's reading of
+# evidence/self-check.tsv; never edited by hand.
+kind: check-run/1
+engine: web
+browser: "HeadlessChrome/157.0.0.0"
+time: "2026-11-13 02:40:45"
+checks:
+  - id: boots
+    result: pass
+    evidence:
+      - "evidence/self-check.tsv"
+  - id: shot
+    result: pass
+    evidence:
+      - "evidence/play.png"
+  - id: outlines
+    result: pass
+    evidence:
+      - "evidence/figures.png"
+  - id: brief-words
+    result: pass
+    evidence:
+      - "evidence/brief-words.tsv"
+  - id: emoji
+    result: pass
+    evidence:
+      - "evidence/self-check.tsv"
+  - id: nearest-game
+    result: pass
+    evidence:
+      - "evidence/nearest-game.txt"
+brief_checklist:
+  - id: L1
+    result: pass
+    evidence: "evidence/figures.png"
+    item: "Look: pixel art 16-bit tối. Đấu trường sân nhà nguyện đổ nát, đá lạnh xanh tím; 4 lò lửa đuốc cam tạo vùng sáng ấm. Chiến binh giáp thép, áo choàng xám, sáng nhất màn hình. Mỗi quái có viền đỏ máu và mắt đỏ phát sáng. Vệt chém trắng lạnh phát sáng, lốc xoáy tím rực. Bóng đổ lạnh (tím), ánh sáng ấm (cam). Độ phân giải gốc 480×270, phóng to theo bội số nguyên, tắt làm mịn, một mật độ pixel, viền tối 1 pixel. *(guessed: phần chi tiết)*"
+  - id: L2
+    result: pass
+    evidence: "index.html:1042"
+    item: "Signature: vầng sáng đuốc ấm quanh chiến binh, rìa màn hình tối dần *(guessed)*"
+  - id: L3
+    result: pass
+    evidence: "evidence/figures.png"
+    item: "References: chưa nêu game nào. Mọi hình đều được vẽ, không emoji, không hình tròn hay ô vuông trơn."
+  - id: L4
+    result: pass
+    evidence: "index.html:1024"
+    item: "View: 2D · Camera: top-down, bám theo chiến binh, lệch nhẹ về phía chuột *(guessed)*"
+  - id: F1
+    result: pass
+    evidence: "index.html:878"
+    item: "Chiến binh: WASD di chuyển, chém kiếm theo hướng chuột (chuột trái), Space lướt bất tử ngắn, E Lốc xoáy bóng tối có hồi chiêu"
+  - id: F2
+    result: pass
+    evidence: "index.html:793"
+    item: "Đấu trường đá tối có lửa đuốc; 5 đợt quái với 4 loại quái, mỗi loại tấn công khác nhau (Ghoul lao cắn, Cung thủ xương bắn xa, Brute đập có báo trước, Wraith lao vụt)"
+  - id: F3
+    result: pass
+    evidence: "index.html:591"
+    item: "Máu và sát thương: nháy trắng, đẩy lùi, rung màn hình, số sát thương bay lên, hồi máu nhỏ khi đánh trúng"
+  - id: F4
+    result: pass
+    evidence: "index.html:939"
+    item: "Kinh nghiệm: hạt kinh nghiệm bay về người chơi; lên cấp chọn 1 trong 3 thẻ (sát thương, tốc độ đánh, tốc độ chạy, máu tối đa, hồi máu, giảm hồi chiêu và vài thẻ khác)"
+  - id: F5
+    result: pass
+    evidence: "index.html:693"
+    item: "Boss Kẻ Canh Giữ Bóng Tối: nhiều kiểu đòn có báo trước, có pha 2"
+  - id: F6
+    result: pass
+    evidence: "evidence/over.png"
+    item: "Màn hình chiến thắng và thất bại có tổng kết, chơi lại"
+  - id: F7
+    result: pass
+    evidence: "index.html:458"
+    item: "Mảnh bóng tối + cửa hàng nâng cấp vĩnh viễn nhỏ, lưu LocalStorage (thin stand-in)"
+  - id: S1
+    result: pass
+    evidence: "index.html:853"
+    item: "chém kiếm theo chuột · in the slice"
+  - id: S2
+    result: pass
+    evidence: "index.html:898"
+    item: "lốc xoáy bóng tối (E) · in the slice"
+  - id: S3
+    result: pass
+    evidence: "index.html:892"
+    item: "lướt né (Space) · in the slice"
+  - id: S4
+    result: pass
+    evidence: "index.html:805"
+    item: "quái theo từng đợt · in the slice"
+  - id: S5
+    result: pass
+    evidence: "index.html:591"
+    item: "máu và sát thương, hồi máu khi đánh trúng · in the slice"
+  - id: S6
+    result: pass
+    evidence: "index.html:939"
+    item: "kinh nghiệm và lên cấp · in the slice"
+  - id: S7
+    result: pass
+    evidence: "index.html:943"
+    item: "thẻ nâng cấp khi lên cấp · in the slice"
+  - id: S8
+    result: pass
+    evidence: "index.html:693"
+    item: "Boss · in the slice"
+  - id: S9
+    result: pass
+    evidence: "evidence/over.png"
+    item: "màn hình thắng/thua và chơi lại · in the slice"
+  - id: S10
+    result: pass
+    evidence: "index.html:1347"
+    item: "mảnh bóng tối và nâng cấp vĩnh viễn (LocalStorage) · thin stand-in *(guessed)*"
+  - id: M1
+    result: pass
+    evidence: "evidence/play.png"
+    item: "Chiến binh đứng giữa đấu trường tối, 4 lò lửa bập bùng, gợi ý \"WASD di chuyển · Click chém\" mờ dần."
+  - id: M2
+    result: pass
+    evidence: "index.html:797"
+    item: "3 Ghoul bò ra từ mép tường."
+  - id: M3
+    result: pass
+    evidence: "index.html:606"
+    item: "Click: vệt kiếm sáng quét theo hướng chuột, quái nảy lùi, nháy trắng rồi vỡ thành hạt kinh nghiệm tím bay về người chơi."
+  - id: M4
+    result: pass
+    evidence: "evidence/play.png"
+    item: "Khi quái áp sát, gợi ý \"Space: lướt\" hiện ra; lướt xuyên qua quái không mất máu."
+  - id: M5
+    result: not_run
+    mark: not assessed
+    why: "slow-motion then 3 cards is built; whether it lands near 40 s needs a real play"
+    evidence: "index.html:1011"
+    item: "Khoảng 40 giây đầu lên cấp 1: thời gian chậm lại, 3 thẻ nâng cấp hiện ra."
+  - id: M6
+    result: pass
+    evidence: "index.html:815"
+    item: "Sang đợt 2 quái đông hơn, gợi ý \"E: Lốc xoáy bóng tối\" hiện lên; nhấn E, vòng kiếm tím quét sạch cả đám xung quanh: khoảnh khắc đã tay đầu tiên."
+  - id: C1
+    result: not_run
+    mark: not assessed
+    why: "waves 1-2 hold ghouls and a few archers; the 0-3 minute timing needs a real play"
+    evidence: "index.html:793"
+    item: "Đợt 1–2 (0–3 phút) làm quen: Ghoul và vài Cung thủ xương."
+  - id: C2
+    result: not_run
+    mark: not assessed
+    why: "brutes join at wave 3 with archers; minute 3-4 and the first real trouble need a real play"
+    evidence: "index.html:800"
+    item: "Đợt 3 (khoảng phút 3–4) là rắc rối thật đầu tiên: Cung thủ bắn từ xa trong khi Brute khổng lồ vung đòn đập có báo trước."
+  - id: C3
+    result: pass
+    evidence: "index.html:801"
+    item: "Đợt 4–5 thêm Wraith lao vụt theo đường thẳng, quái đông dần."
+  - id: C4
+    result: not_run
+    mark: not assessed
+    why: "the four boss attacks and phase 2 are built; arriving at minute 7-8 needs a real play"
+    evidence: "index.html:693"
+    item: "Boss ra khoảng phút 7–8 với 4 đòn (lao tới đập đất, vòng cầu bóng tối, chém quét, gọi Ghoul); dưới 50% máu sang pha 2 nhanh hơn và phối hợp đòn."
+  - id: C5
+    result: not_run
+    mark: not assessed
+    why: "lifesteal is capped at 3 hp/s; whether standing and trading loses is a feel only play shows"
+    evidence: "index.html:883"
+    item: "Hồi máu khi đánh trúng nhỏ và có giới hạn, nên đứng yên đổi đòn sẽ thua."
+  - id: C6
+    result: pass
+    evidence: "index.html:1028"
+    item: "Chết là mất cả lượt nhưng giữ lại mảnh bóng tối kiếm được."
+measures:
+  - id: step-time
+    value: 1.300
+    unit: ms
+    by: browser
+    detail: "mean 0.017 ms, slowest 1.300 ms, 432 steps"

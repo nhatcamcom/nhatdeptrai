@@ -1,0 +1,65 @@
+time	2026-11-13 02:40:45
+keep	lines	0	pinned	0
+briefword	2D	shown	evidence/play.png
+briefword	Top-down	shown	evidence/play.png
+briefword	Pixel Art	shown	evidence/figures.png
+checklist	L1	unlisted	-	Look: pixel art 16-bit tối. Đấu trường sân nhà nguyện đổ nát, đá lạnh xanh tím; 4 lò lửa đuốc cam tạo vùng sáng ấm. Chiến binh giáp thép, áo choàng xám, sáng nhất màn hình. Mỗi quái có viền đỏ máu và mắt đỏ phát sáng. Vệt chém trắng lạnh phát sáng, lốc xoáy tím rực. Bóng đổ lạnh (tím), ánh sáng ấm (cam). Độ phân giải gốc 480×270, phóng to theo bội số nguyên, tắt làm mịn, một mật độ pixel, viền tối 1 pixel. *(guessed: phần chi tiết)*	
+checklist	L2	unlisted	-	Signature: vầng sáng đuốc ấm quanh chiến binh, rìa màn hình tối dần *(guessed)*	
+checklist	L3	unlisted	-	References: chưa nêu game nào. Mọi hình đều được vẽ, không emoji, không hình tròn hay ô vuông trơn.	
+checklist	L4	unlisted	-	View: 2D · Camera: top-down, bám theo chiến binh, lệch nhẹ về phía chuột *(guessed)*	
+checklist	F1	unlisted	-	Chiến binh: WASD di chuyển, chém kiếm theo hướng chuột (chuột trái), Space lướt bất tử ngắn, E Lốc xoáy bóng tối có hồi chiêu	
+checklist	F2	unlisted	-	Đấu trường đá tối có lửa đuốc; 5 đợt quái với 4 loại quái, mỗi loại tấn công khác nhau (Ghoul lao cắn, Cung thủ xương bắn xa, Brute đập có báo trước, Wraith lao vụt)	
+checklist	F3	unlisted	-	Máu và sát thương: nháy trắng, đẩy lùi, rung màn hình, số sát thương bay lên, hồi máu nhỏ khi đánh trúng	
+checklist	F4	unlisted	-	Kinh nghiệm: hạt kinh nghiệm bay về người chơi; lên cấp chọn 1 trong 3 thẻ (sát thương, tốc độ đánh, tốc độ chạy, máu tối đa, hồi máu, giảm hồi chiêu và vài thẻ khác)	
+checklist	F5	unlisted	-	Boss Kẻ Canh Giữ Bóng Tối: nhiều kiểu đòn có báo trước, có pha 2	
+checklist	F6	unlisted	-	Màn hình chiến thắng và thất bại có tổng kết, chơi lại	
+checklist	F7	unlisted	-	Mảnh bóng tối + cửa hàng nâng cấp vĩnh viễn nhỏ, lưu LocalStorage (thin stand-in)	
+checklist	S1	unlisted	-	chém kiếm theo chuột · in the slice	
+checklist	S2	unlisted	-	lốc xoáy bóng tối (E) · in the slice	
+checklist	S3	unlisted	-	lướt né (Space) · in the slice	
+checklist	S4	unlisted	-	quái theo từng đợt · in the slice	
+checklist	S5	unlisted	-	máu và sát thương, hồi máu khi đánh trúng · in the slice	
+checklist	S6	unlisted	-	kinh nghiệm và lên cấp · in the slice	
+checklist	S7	unlisted	-	thẻ nâng cấp khi lên cấp · in the slice	
+checklist	S8	unlisted	-	Boss · in the slice	
+checklist	S9	unlisted	-	màn hình thắng/thua và chơi lại · in the slice	
+checklist	S10	unlisted	-	mảnh bóng tối và nâng cấp vĩnh viễn (LocalStorage) · thin stand-in *(guessed)*	
+checklist	M1	unlisted	-	Chiến binh đứng giữa đấu trường tối, 4 lò lửa bập bùng, gợi ý "WASD di chuyển · Click chém" mờ dần.	
+checklist	M2	unlisted	-	3 Ghoul bò ra từ mép tường.	
+checklist	M3	unlisted	-	Click: vệt kiếm sáng quét theo hướng chuột, quái nảy lùi, nháy trắng rồi vỡ thành hạt kinh nghiệm tím bay về người chơi.	
+checklist	M4	unlisted	-	Khi quái áp sát, gợi ý "Space: lướt" hiện ra; lướt xuyên qua quái không mất máu.	
+checklist	M5	unlisted	-	Khoảng 40 giây đầu lên cấp 1: thời gian chậm lại, 3 thẻ nâng cấp hiện ra.	
+checklist	M6	unlisted	-	Sang đợt 2 quái đông hơn, gợi ý "E: Lốc xoáy bóng tối" hiện lên; nhấn E, vòng kiếm tím quét sạch cả đám xung quanh: khoảnh khắc đã tay đầu tiên.	
+checklist	C1	unlisted	-	Đợt 1–2 (0–3 phút) làm quen: Ghoul và vài Cung thủ xương.	
+checklist	C2	unlisted	-	Đợt 3 (khoảng phút 3–4) là rắc rối thật đầu tiên: Cung thủ bắn từ xa trong khi Brute khổng lồ vung đòn đập có báo trước.	
+checklist	C3	unlisted	-	Đợt 4–5 thêm Wraith lao vụt theo đường thẳng, quái đông dần.	
+checklist	C4	unlisted	-	Boss ra khoảng phút 7–8 với 4 đòn (lao tới đập đất, vòng cầu bóng tối, chém quét, gọi Ghoul); dưới 50% máu sang pha 2 nhanh hơn và phối hợp đòn.	
+checklist	C5	unlisted	-	Hồi máu khi đánh trúng nhỏ và có giới hạn, nên đứng yên đổi đòn sẽ thua.	
+checklist	C6	unlisted	-	Chết là mất cả lượt nhưng giữ lại mảnh bóng tối kiếm được.	
+browser	HeadlessChrome/157.0.0.0
+scene	play	0	title
+scene	play	1	play
+digits	log	7px "Trebuchet MS", "Segoe UI", Tahoma, sans-serif	tabular	0
+digits	log	bold 7px "Trebuchet MS", "Segoe UI", Tahoma, sans-serif	tabular	0
+digits	log	6px "Trebuchet MS", "Segoe UI", Tahoma, sans-serif	tabular	0
+digits	log	bold 6px "Trebuchet MS", "Segoe UI", Tahoma, sans-serif	tabular	0
+digits	log	bold 9px "Palatino Linotype", "Book Antiqua", Cambria, "Times New Roman", serif	tabular	0
+digits	log	bold 16px "Palatino Linotype", "Book Antiqua", Cambria, "Times New Roman", serif	tabular	0
+digits	log	bold 8px "Trebuchet MS", "Segoe UI", Tahoma, sans-serif	tabular	0
+measure	step-time	play	0.017	1.300	432
+lane	play	stop	7.2	1563
+uncaught	play	0
+text	play	canvas	626,299,642,311	24.0	4.08	inside	-8
+text	play	canvas	290,112,339,122	21.0	13.99	inside	92 / 100
+text	play	canvas	178,135,210,149	21.0	15.73	inside	Cấp 1
+text	play	canvas	599,104,680,122	27.0	15.38	inside	ĐỢT 1 / 5
+text	play	canvas	596,129,684,141	21.0	9.07	inside	Quái còn lại: 14
+text	play	canvas	1064,106,1106,118	21.0	15.73	inside	00:07
+text	play	canvas	1053,125,1106,139	21.0	9.11	inside	Hạ gục: 0
+text	play	canvas	1022,145,1032,155	21.0	11.52	inside	0
+text	play	canvas	181,601,218,611	21.0	12.66	inside	SPACE
+text	play	canvas	257,601,265,611	21.0	12.52	inside	E
+text	play	canvas	484,522,796,538	21.0	16.89	inside	SPACE: lướt né, xuyên qua quái không mất máu
+screen	play	drawn
+shot	play	prototypes/shadowfall/evidence/play.png
+responds	changed	184

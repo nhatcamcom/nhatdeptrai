@@ -49,13 +49,13 @@ Chiến binh đứng giữa đấu trường tối, 4 lò lửa bập bùng, g�
 - Thắng: hạ Boss sau đợt 5. Thua: máu về 0. Màn kết hiện điểm, số quái hạ, thời gian, cấp đạt được và mảnh bóng tối nhận được.
 
 ## Features
-- [ ] Chiến binh: WASD di chuyển, chém kiếm theo hướng chuột (chuột trái), Space lướt bất tử ngắn, E Lốc xoáy bóng tối có hồi chiêu
-- [ ] Đấu trường đá tối có lửa đuốc; 5 đợt quái với 4 loại quái, mỗi loại tấn công khác nhau (Ghoul lao cắn, Cung thủ xương bắn xa, Brute đập có báo trước, Wraith lao vụt)
-- [ ] Máu và sát thương: nháy trắng, đẩy lùi, rung màn hình, số sát thương bay lên, hồi máu nhỏ khi đánh trúng
-- [ ] Kinh nghiệm: hạt kinh nghiệm bay về người chơi; lên cấp chọn 1 trong 3 thẻ (sát thương, tốc độ đánh, tốc độ chạy, máu tối đa, hồi máu, giảm hồi chiêu và vài thẻ khác)
-- [ ] Boss Kẻ Canh Giữ Bóng Tối: nhiều kiểu đòn có báo trước, có pha 2
-- [ ] Màn hình chiến thắng và thất bại có tổng kết, chơi lại
-- [ ] Mảnh bóng tối + cửa hàng nâng cấp vĩnh viễn nhỏ, lưu LocalStorage (thin stand-in)
+- [x] Chiến binh: WASD di chuyển, chém kiếm theo hướng chuột (chuột trái), Space lướt bất tử ngắn, E Lốc xoáy bóng tối có hồi chiêu
+- [x] Đấu trường đá tối có lửa đuốc; 5 đợt quái với 4 loại quái, mỗi loại tấn công khác nhau (Ghoul lao cắn, Cung thủ xương bắn xa, Brute đập có báo trước, Wraith lao vụt)
+- [x] Máu và sát thương: nháy trắng, đẩy lùi, rung màn hình, số sát thương bay lên, hồi máu nhỏ khi đánh trúng
+- [x] Kinh nghiệm: hạt kinh nghiệm bay về người chơi; lên cấp chọn 1 trong 3 thẻ (sát thương, tốc độ đánh, tốc độ chạy, máu tối đa, hồi máu, giảm hồi chiêu và vài thẻ khác)
+- [x] Boss Kẻ Canh Giữ Bóng Tối: nhiều kiểu đòn có báo trước, có pha 2
+- [x] Màn hình chiến thắng và thất bại có tổng kết, chơi lại
+- [x] Mảnh bóng tối + cửa hàng nâng cấp vĩnh viễn nhỏ, lưu LocalStorage (thin stand-in)
 
 ## Your systems
 - chém kiếm theo chuột · in the slice
